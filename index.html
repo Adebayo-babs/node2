@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+        <h3>Registration Form</h3>
+
+        <p>Please fill the form fields below</p>
+
+        <form action="/" method="post">
+            <p>Firstname: <input type="text" name="fn"></p>
+            <p>Lastname: <input type="text" name="ln"></p>
+            <p>Gender: Male<input type="radio" name="sex" value="Male">
+                       Female<input type="radio" name="sex" value="Female">
+            </p>
+
+            <p>State of Origin: <select name="state">
+                                    <option value="">Select State</option>
+                                    <option value="Lagos">Lagos</option>
+                                    <option value="Delta">Delta</option>
+                                    <option value="Kaduna">Kaduna</option>
+                                    <option value="Rivers">Rivers</option>
+                                    <option value="Ekiti">Ekiti</option>
+                                </select>
+            </p>
+
+            <p>Address: <br><textarea name="address" id="" cols="40" rows="10"></textarea></p>
+
+            <input type="submit" value = "Click to Register">
+
+        </form>
+    
+</body>
+</html>
